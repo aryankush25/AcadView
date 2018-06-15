@@ -1,0 +1,37 @@
+import java.util.*;
+
+public class RemoveVowels {
+	
+	String str;
+	
+	RemoveVowels()
+	{
+		Scanner sc = new Scanner(System.in);
+		str = sc.nextLine();
+		sc.close();
+	}
+	
+	void remove()
+	{
+		String s = "";
+		
+		for(int i=0;i<str.length();i++)
+		{
+			if(!(str.charAt(i) == 'a' || str.charAt(i) == 'e' || str.charAt(i) == 'i' || str.charAt(i) == 'o' || str.charAt(i) == 'u'))
+			{
+				s += str.charAt(i);
+			}
+		}
+		System.out.println(s);
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		RemoveVowels rm = new RemoveVowels();
+		
+		rm.remove();
+		
+	}
+
+}
