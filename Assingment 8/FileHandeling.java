@@ -7,7 +7,7 @@ import java.util.InputMismatchException;
 public class FileHandeling {
 
 	public static void main(String[] args) throws IOException {
-		File file=new File("C:\\Users\\AcadView\\assignment.txt");
+		File file=new File("Assingment 8/assignment.txt");
 		file.createNewFile();
 		file.mkdirs();
 		FileReader input = null;
@@ -22,7 +22,7 @@ public class FileHandeling {
 			   ch = input.read();
 		   }
 	    	System.out.println();
-	    } 
+	    }
 	    catch(InputMismatchException e) {
 	    	 System.out.println("Input is invalid");
 	    } finally {

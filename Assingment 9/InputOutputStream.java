@@ -8,8 +8,8 @@ import java.io.PrintStream;
 public class InputOutputStream {
 	
 	public void transferContents() throws IOException{
-		File in = new File("abc.txt");
-		File out = new File("xyz.txt");
+		File in = new File("Assingment 9/abc.txt");
+		File out = new File("Assingment 9/xyz.txt");
 		out.createNewFile();
 		FileInputStream inputStream = null;
 		FileOutputStream outputStream = null;
