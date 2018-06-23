@@ -1,8 +1,8 @@
 import java.util.*;
 
-public class PrintGeneric {
+public class PrintGeneric <x> {
 
-	public static <x> void printArray(ArrayList<x> i) {
+	void printArray(ArrayList <x> i) {
 		System.out.println(i);
 	}
 
@@ -19,8 +19,10 @@ public class PrintGeneric {
 		s.add("pandey");
 		s.add("singla");
 	
-		printArray(i);
-		printArray(s);
+		PrintGeneric g = new PrintGeneric();
+		
+		g.printArray(i);
+		g.printArray(s);
 	
 	}
 
