@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Acad View.iml" filepath="$PROJECT_DIR$/Acad View.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assingment 9/Assingment 9.iml" filepath="$PROJECT_DIR$/Assingment 9/Assingment 9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AcadView.iml" filepath="$PROJECT_DIR$/AcadView.iml" />
     </modules>
   </component>
 </project>
