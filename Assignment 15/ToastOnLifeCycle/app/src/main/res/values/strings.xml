@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ToastOnLifeCycle</string>
+    <string name="toast">Toast</string>
+</resources>
